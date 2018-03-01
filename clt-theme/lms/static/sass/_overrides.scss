@@ -15,7 +15,8 @@ $blue: rgb(94, 100, 0);
 
 .home > header {
     background-color: #5e003a;
-    background: url('https://raw.githubusercontent.com/dehamzah/starter-theme-openedx/master/lms/static/images/kids.jpeg');
+    background-image:url('https://raw.githubusercontent.com/dehamzah/starter-theme-openedx/master/lms/static/images/kids.jpeg');
+    background-size: cover;
 }
 
 
