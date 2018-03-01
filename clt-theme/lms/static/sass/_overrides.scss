@@ -15,8 +15,6 @@ $blue: rgb(94, 100, 0);
 
 .home > header {
     background-color: #5e003a;
-    background-image:url('https://raw.githubusercontent.com/dehamzah/starter-theme-openedx/master/lms/static/images/kids.jpeg');
-    background-size: cover;
 }
 
 
@@ -85,8 +83,5 @@ $blue: rgb(94, 100, 0);
             float:left
         }
 
-        .wrapper-footer .copyright::after{
-            content: 'HCL Technologies. Powered by CloudThat Technlogies. All rights reserved except where noted.  EdX, Open edX and the edX and Open EdX logos are registered trademarks or trademarks of edX Inc.';
-        }
     }
 }
