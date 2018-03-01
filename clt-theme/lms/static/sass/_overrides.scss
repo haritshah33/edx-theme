@@ -12,8 +12,16 @@ $blue: rgb(94, 100, 0);
     }
 }
 
+
 .home > header {
     background-color: #5e003a;
+}
+
+.home > header{
+    background: url('../starter-theme/images/kids.jpeg');
+}
+.home > header .title .heading-group > h1 {
+    content: 'Welcome To HCL Technologies';
 }
 
 .courses-container .courses .course {
@@ -70,6 +78,7 @@ $blue: rgb(94, 100, 0);
 
         .wrapper-logo {
             margin-right: 20px;
+            width: 120px;
         }
 
         .nav-colophon {
@@ -78,6 +87,10 @@ $blue: rgb(94, 100, 0);
     
         .wrapper-logo, .nav-colophon, p.copyright, nav.nav-legal {
             float:left
+        }
+
+        .wrapper-footer .copyright{
+            content: 'HCL Technologies. Powered by CloudThat Technlogies. All rights reserved except where noted.  EdX, Open edX and the edX and Open EdX logos are registered trademarks or trademarks of edX Inc.';
         }
     }
 }
