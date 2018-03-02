@@ -12,9 +12,45 @@ $blue: rgb(94, 100, 0);
     }
 }
 
+h1.logo > a >img{
+    width:90px;
+}
+h1.logo> a > img {
+    width: 90px;
+}
+
+.wrapper-footer footer#footer-openedx .wrapper-logo a img {
+    width: 120px;
+}
+
+
+.wrapper-footer footer#footer-openedx .wrapper-logo {
+    margin: 0px 0;
+}
+
+p.copyright{
+    visibility: hidden
+}
+p.copyright::before{
+    content: "HCL Technologies. Powered by CloudThat Technologies 2018.";
+    visibility: visible;
+}
+
+.home>header .title>.heading-group h1{
+text-indent: -9999px;
+line-height: 0
+}
+
+.home>header .title>.heading-group h1::after{
+    text-indent:0;
+	content:'Welcome To HCL Technologies Open edX Platform!';
+	display:block;
+	line-height: initial;
+    }
 
 .home > header {
     background-color: #5e003a;
+    background-image: url('https://tpc.googlesyndication.com/simgad/10599051681134661750');
 }
 
 
