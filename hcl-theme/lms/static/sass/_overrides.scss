@@ -34,16 +34,16 @@ text-indent: -9999px;
 line-height: 0
 }
 
-.home>header .title>.heading-group h1::after{
-    text-indent:0;
-	content:'Welcome To HCL Technologies Open edX Platform!';
-	display:block;
-	line-height: initial;
-    }
+//.home>header .title>.heading-group h1::after{
+//    text-indent:0;
+//	content:'Welcome To HCL Technologies Open edX Platform!';
+//	display:block;
+//	line-height: initial;
+//    }
 
 .home > header {
     background-color: #0f78da00;
-   
+   background-image: url('https://hclstg.blob.core.windows.net/banner/banner.jpg');
 }
 
 
