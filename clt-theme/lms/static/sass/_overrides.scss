@@ -28,13 +28,6 @@ h1.logo> a > img {
     margin: 0px 0;
 }
 
-p.copyright{
-    visibility: hidden
-}
-p.copyright::before{
-    content: "HCL Technologies. Powered by CloudThat Technologies 2018.";
-    visibility: visible;
-}
 
 .home>header .title>.heading-group h1{
 text-indent: -9999px;
@@ -50,7 +43,7 @@ line-height: 0
 
 .home > header {
     background-color: #5e003a;
-    background-image: url('https://tpc.googlesyndication.com/simgad/10599051681134661750');
+    background-image: url('https://hclstg.blob.core.windows.net/banner/banner1.jpg');
 }
 
 
