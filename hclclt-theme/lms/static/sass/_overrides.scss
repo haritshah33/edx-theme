@@ -29,25 +29,15 @@ h1.logo> a > img {
 }
 
 
-.home>header .title>.heading-group h1{
-text-indent: -9999px;
-line-height: 0
-}
 
-.home>header .title>.heading-group h1::after{
-    text-indent:0;
-	content:'Welcome To Microsoft Virtual Academy';
-	display:block;
-    line-height: initial;
-    
-    }
 
     .home>header .title{
         visibility: hidden;
+        display: none
     }
 .home > header {
     background-color: #5e003a;
-    background-image: url('https://hcllogo.blob.core.windows.net/hclbanner/hclbanner.jpg');
+    background-image: url('https://hclstg.blob.core.windows.net/banner/rsz_banner.jpg');
 }
 
 
